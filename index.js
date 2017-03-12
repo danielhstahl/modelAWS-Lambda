@@ -26,7 +26,7 @@ const genericSpawn=(event, binary, callback) => {
     });
     var modelOutput='';
     var modelErr='';
-    const model=spawn('./bin/'+binary, [JSON.stringify(parseToInteger(event.queryStringParameters))]);
+    const model=spawn('./bin/'+binary, [event.queryStringParameters?JSON.stringify(parseToInteger(event.queryStringParameters)):"{}"]);
     model.stdout.on('data', (data)=>{
         modelOutput+=data;
     });

@@ -20,6 +20,8 @@ service: ModelLambda
 provider:
   name: aws
   runtime: nodejs4.3
+  memorySize: 1024 # optional, default is 1024
+  timeout: 45 # optional, default is 6
 
 # you can overwrite defaults here
   stage: prd
