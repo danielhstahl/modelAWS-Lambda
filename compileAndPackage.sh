@@ -28,6 +28,7 @@ cloneAndCheckout BinomialTree
 cloneAndCheckout MonteCarlo
 cloneAndCheckout CharacteristicFunctions 
 cloneAndCheckout FangOost 
+cloneAndCheckout TupleUtilities 
 cloneAndCheckout RungeKutta
 cloneAndCheckout AutoDiff
 git clone https://github.com/miloyip/rapidjson
@@ -44,6 +45,7 @@ rm -rf BinomialTree
 rm -rf MonteCarlo
 rm -rf CharacteristicFunctions
 rm -rf FangOost
+rm -rf TupleUtilities
 rm -rf RungeKutta
 rm -rf AutoDiff
 rm -rf rapidjson
