@@ -26,6 +26,7 @@ cloneAndCheckout GaussNewton
 cloneAndCheckout FunctionalUtilities 
 cloneAndCheckout BinomialTree 
 cloneAndCheckout MonteCarlo
+cloneAndCheckout Vasicek
 cloneAndCheckout CharacteristicFunctions 
 cloneAndCheckout FangOost 
 cloneAndCheckout TupleUtilities 
@@ -42,6 +43,7 @@ rm -rf HullWhite
 rm -rf GaussNewton
 rm -rf FunctionalUtilities
 rm -rf BinomialTree
+rm -rf Vasicek
 rm -rf MonteCarlo
 rm -rf CharacteristicFunctions
 rm -rf FangOost
